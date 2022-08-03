@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+</body>
+
+<div class="container">
+    <style>
+
+        .container{
+          background: linear-gradient(90deg, rgba(235, 86, 97, 0.4), rgba(237, 122, 77, 0.2), rgba(246, 195, 76, 0.4), rgba(121, 231, 202, 0.2), rgba(101, 175, 249, 0.4), rgba(161, 99, 247, 0.2), rgba(235, 86, 97, 0.4),rgba(237, 122, 77, 0.2));
+          background: -webkit-linear-gradient(0deg, rgba(235, 86, 97, 0.4), rgba(237, 122, 77, 0.2), rgba(246, 195, 76, 0.4), rgba(121, 231, 202, 0.2), rgba(101, 175, 249, 0.4), rgba(161, 99, 247, 0.2), rgba(235, 86, 97, 0.4),rgba(237, 122, 77, 0.2));
+        
+          background-size: 600% 100%;
+          will-change: background, background-position;
+          animation: GradientAnimation 20s linear infinite;
+        }
+        
+        @keyframes GradientAnimation {
+          0% {
+            background-position: 0% 0%;
+          }
+          100% {
+            background-position: 100% 0%;
+          }
+        }
+        
+        @-webkit-keyframes GradientAnimation {
+          0% {
+            background-position: 0% 0%;
+          }
+          100% {
+            background-position: 100% 0%;
+          }
+        }
+        
+        </style>
+</div>
+</html>
